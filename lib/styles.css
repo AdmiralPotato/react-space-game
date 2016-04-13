@@ -1,0 +1,23 @@
+.SpaceGame {
+  border: 1px solid #222;
+  width: 640px;
+  color: #ccc; }
+  .SpaceGame * {
+    padding: 0;
+    margin: 0; }
+  .SpaceGame .AppHeader {
+    background-color: #444; }
+    .SpaceGame .AppHeader ul.state {
+      display: block;
+      font-size: 0; }
+      .SpaceGame .AppHeader ul.state li {
+        font-size: 1rem;
+        display: inline-block;
+        border-right: 1px solid #555;
+        padding: 0.5rem; }
+  .SpaceGame .GameCanvas {
+    background-color: #000;
+    height: 480px; }
+  .SpaceGame button {
+    background-color: #333;
+    border: 1px solid #666; }
